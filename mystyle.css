@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+li {
+	list-style-type: none;
+ }
+ body{
+    background-image: url(fondweb.jpeg);
+    background-color: rgba(0, 0, 0, 0.105) !important;
+    background-blend-mode: multiply;
+    background-size: cover;  
+    background-repeat: no-repeat;
+ }
+ 
+.profile{
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.742);
+    width: 80%;
+    height: auto;
+}
+.ecran{
+    padding: 10PX;
+    max-width: 100%;
+    max-height: 50rem;
+    background-color: rgba(0, 0, 0, 0.347);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 4px solid rgba(101, 101, 101, 0.059);
+    border-radius: 5%;
+
+}
+.carte{
+    width: 90%;
+    max-width: 440px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50PX 30PX;
+    border: 3px solid rgba(255, 255, 255, 0.742);
+    background:rgba(255, 255, 255, 0.2) ;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(Spx);
+    
+
+}
+.carte .reseau img{
+    width: 40px;
+    border-radius: 50%;
+    transition: backround 0.5s;
+}
+.carte .reseau img:hover{
+    background: whitesmoke;
+}
